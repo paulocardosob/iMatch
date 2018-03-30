@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NavigationViewController.h
 //  iMatch
 //
 //  Created by Paulo Jose on 30/03/18.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-- (void) showProfile:(id) sender;
+@interface NavigationViewController : UINavigationController
 
 @end
-

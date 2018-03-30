@@ -13,6 +13,12 @@
 		2BED54A7206EA550006968CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BED54A6206EA550006968CC /* Assets.xcassets */; };
 		2BED54AA206EA550006968CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BED54A8206EA550006968CC /* LaunchScreen.storyboard */; };
 		2BED54AD206EA550006968CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BED54AC206EA550006968CC /* main.m */; };
+		2BED54B8206EA8C9006968CC /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BED54B7206EA8C9006968CC /* ProfileViewController.m */; };
+		2BED54BB206EAC0C006968CC /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BED54BA206EAC0C006968CC /* TabBarViewController.m */; };
+		2BED54DF206EB68A006968CC /* ProfileCardXIBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BED54DE206EB68A006968CC /* ProfileCardXIBView.m */; };
+		2BED54E3206EB715006968CC /* ProfileCardXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BED54E2206EB715006968CC /* ProfileCardXIB.xib */; };
+		2BED54E6206EBFCB006968CC /* ProfilesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BED54E5206EBFCB006968CC /* ProfilesModel.m */; };
+		2BED54E9206EC0DA006968CC /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BED54E8206EC0DA006968CC /* Profile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,17 @@
 		2BED54A9206EA550006968CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BED54AB206EA550006968CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BED54AC206EA550006968CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BED54B6206EA8C9006968CC /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		2BED54B7206EA8C9006968CC /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		2BED54B9206EAC0C006968CC /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		2BED54BA206EAC0C006968CC /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		2BED54DD206EB68A006968CC /* ProfileCardXIBView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileCardXIBView.h; sourceTree = "<group>"; };
+		2BED54DE206EB68A006968CC /* ProfileCardXIBView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileCardXIBView.m; sourceTree = "<group>"; };
+		2BED54E2206EB715006968CC /* ProfileCardXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCardXIB.xib; sourceTree = "<group>"; };
+		2BED54E4206EBFCB006968CC /* ProfilesModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfilesModel.h; sourceTree = "<group>"; };
+		2BED54E5206EBFCB006968CC /* ProfilesModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfilesModel.m; sourceTree = "<group>"; };
+		2BED54E7206EC0DA006968CC /* Profile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		2BED54E8206EC0DA006968CC /* Profile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +79,32 @@
 				2BED549E206EA54F006968CC /* AppDelegate.m */,
 				2BED54A0206EA54F006968CC /* ViewController.h */,
 				2BED54A1206EA54F006968CC /* ViewController.m */,
+				2BED54B6206EA8C9006968CC /* ProfileViewController.h */,
+				2BED54B9206EAC0C006968CC /* TabBarViewController.h */,
+				2BED54BA206EAC0C006968CC /* TabBarViewController.m */,
+				2BED54B7206EA8C9006968CC /* ProfileViewController.m */,
+				2BED54DA206EB3AC006968CC /* ProfileCard */,
 				2BED54A3206EA54F006968CC /* Main.storyboard */,
 				2BED54A6206EA550006968CC /* Assets.xcassets */,
 				2BED54A8206EA550006968CC /* LaunchScreen.storyboard */,
 				2BED54AB206EA550006968CC /* Info.plist */,
 				2BED54AC206EA550006968CC /* main.m */,
+				2BED54E7206EC0DA006968CC /* Profile.h */,
+				2BED54E8206EC0DA006968CC /* Profile.m */,
+				2BED54E4206EBFCB006968CC /* ProfilesModel.h */,
+				2BED54E5206EBFCB006968CC /* ProfilesModel.m */,
 			);
 			path = iMatch;
+			sourceTree = "<group>";
+		};
+		2BED54DA206EB3AC006968CC /* ProfileCard */ = {
+			isa = PBXGroup;
+			children = (
+				2BED54DD206EB68A006968CC /* ProfileCardXIBView.h */,
+				2BED54DE206EB68A006968CC /* ProfileCardXIBView.m */,
+				2BED54E2206EB715006968CC /* ProfileCardXIB.xib */,
+			);
+			name = ProfileCard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BED54AA206EA550006968CC /* LaunchScreen.storyboard in Resources */,
+				2BED54E3206EB715006968CC /* ProfileCardXIB.xib in Resources */,
 				2BED54A7206EA550006968CC /* Assets.xcassets in Resources */,
 				2BED54A5206EA54F006968CC /* Main.storyboard in Resources */,
 			);
@@ -141,9 +178,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BED54BB206EAC0C006968CC /* TabBarViewController.m in Sources */,
+				2BED54E6206EBFCB006968CC /* ProfilesModel.m in Sources */,
 				2BED54A2206EA54F006968CC /* ViewController.m in Sources */,
 				2BED54AD206EA550006968CC /* main.m in Sources */,
 				2BED549F206EA54F006968CC /* AppDelegate.m in Sources */,
+				2BED54E9206EC0DA006968CC /* Profile.m in Sources */,
+				2BED54DF206EB68A006968CC /* ProfileCardXIBView.m in Sources */,
+				2BED54B8206EA8C9006968CC /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
